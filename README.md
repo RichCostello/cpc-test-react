@@ -1,4 +1,4 @@
-react-forms
+webpack react barebones
 ===========
 
 Examples of Forms in ReactJS
