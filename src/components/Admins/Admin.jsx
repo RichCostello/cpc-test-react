@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazy-load';
 
 
 
@@ -78,8 +79,13 @@ onClick(event) {
       <input key={index}id={item.product_id} type="checkbox" name="tabs" />
       <label  htmlFor={item.product_id}>{item.product_name} </label>
       <div className="tab-content">
-     <div> < img src={item.product_image_url} width="300"  /></div>
+     <div> 
+      <LazyLoad throttle={200} >
+     < img src={item.product_image_url} height="150"  />
+          </LazyLoad>
+     </div>
         {keywords}
+
       </div>
     </div>
         )

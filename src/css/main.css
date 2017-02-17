@@ -185,7 +185,7 @@ label {
 .tab-content {
   height: auto;
   max-height: 0;
-  overflow: scroll;
+  overflow: hidden;
   background: #1abc9c;
   -webkit-transition: max-height .35s;
   -o-transition: max-height .35s;
@@ -199,7 +199,7 @@ label {
 }
 /* :checked */
 input:checked ~ .tab-content {
-  max-height: 100%;
+  max-height: 1000%;
 }
 /* Icon */
 label::after {
@@ -230,7 +230,7 @@ input[type=radio]:checked + label::after {
 
 img {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 
@@ -262,7 +262,7 @@ div.table-title {
     background: white;
     border-radius: 3px;
     border-collapse: collapse;
-    height: 130px;
+    height: 50px;
     margin: auto;
     max-width: 60%;
     padding: 5px;
@@ -278,7 +278,7 @@ th {
   border-right: 1px solid #343a45;
   font-size:23px;
   font-weight: 100;
-  padding:15px;
+  padding:5px;
   text-align:left;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align:middle;
@@ -335,7 +335,7 @@ tr:last-child td:last-child {
  
 td {
   background:#FFFFFF;
-  padding:20px;
+  padding:10px;
   text-align:left;
   vertical-align:middle;
   font-weight:300;
