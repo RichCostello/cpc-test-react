@@ -1,9 +1,9 @@
-var React = require('react');
-var Link = require('react-router').Link;
+import React from 'react';
+import {Link} from 'react-router';
 
-var HomePageItem = React.createClass({
+const HomePageItem = React.createClass({
 
-  render: function() {
+  render() {
 
     return (
       <div className="col-xs-12">
@@ -22,4 +22,4 @@ var HomePageItem = React.createClass({
   }
 });
 
-module.exports = HomePageItem;
+export default HomePageItem;
