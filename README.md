@@ -1,7 +1,7 @@
-webpack react barebones
+cpc test
 ===========
 
-Examples of Forms in ReactJS
+Examples cpc data in ReactJS
 
 ### Usage
 
