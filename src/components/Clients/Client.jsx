@@ -57,13 +57,13 @@ onClick(event) {
     return (
       <div className="col-sm-12 compBlock">
         <div className="col-sm-6">
-          <h3 key={this.props.id} >{this.props.name}</h3>
+          <h3 >{this.props.name}</h3>
            <a className="seeAlsoLink" onClick={this.onClick}>Show Details</a>
        
       </div>
          <div className="col-sm-6" style={propsStyle}>
                <div id={this.props.id}  className="hidden props">
-                   test
+                     {prods}
                </div>
          </div>
       </div>   

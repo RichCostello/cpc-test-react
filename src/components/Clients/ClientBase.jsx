@@ -47,7 +47,7 @@ const ClientBase = React.createClass({
 
     return (
       <div>
-        {createPlanetItem}
+     test
       </div>
     )
   }
