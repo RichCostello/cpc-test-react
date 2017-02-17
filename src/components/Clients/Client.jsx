@@ -63,7 +63,7 @@ onClick(event) {
       </div>
          <div className="col-sm-6" style={propsStyle}>
                <div id={this.props.id}  className="hidden props">
-                     {prods}
+                   test
                </div>
          </div>
       </div>   
