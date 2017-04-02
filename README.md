@@ -1,7 +1,7 @@
 cpc test
 ===========
 
-Examples cpc data in ReactJS
+Test example of display data from JSON feed in React
 
 ### Usage
 
